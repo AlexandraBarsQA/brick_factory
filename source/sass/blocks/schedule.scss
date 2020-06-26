@@ -1,0 +1,34 @@
+.schedule {
+  width: 142px;
+}
+
+@include _1256 {
+  .schedule {
+    margin-bottom: 15px;
+  }
+}
+
+@include _976 {
+  .schedule {
+    margin: 0;
+  }
+}
+
+@include _536 {
+  .schedule {
+    width: 280px;
+    margin-bottom: 15px;
+  }
+}
+
+.schedule p {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 13px;
+  margin: 0;
+}
+
+.schedule p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}

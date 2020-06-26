@@ -1,0 +1,37 @@
+.btn-close {
+  position: relative;
+  margin-top: 75px;
+  margin-right: 20px;
+}
+
+@include _706 {
+  .btn-close {
+    position: absolute;
+    top: 350px;
+    left: 400px;
+  }
+}
+
+@include _536 {
+  .btn-close {
+    top: 77%;
+    left: 242px;
+  }
+}
+
+.btn-close::before,
+.btn-close::after  {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 24px;
+  background-color: #000000;
+}
+
+.btn-close::before {
+  transform: rotate(45deg);
+}
+
+.btn-close::after {
+  transform: rotate(-45deg);
+}

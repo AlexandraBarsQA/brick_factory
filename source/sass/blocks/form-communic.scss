@@ -1,0 +1,142 @@
+.form-communic {
+  width: 100%;
+  min-height: 297px;
+  background-color: #f54327;
+}
+
+.form-communic__wrapp {
+  width: 960px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 57px;
+  margin: 0 auto;
+}
+
+@include _1256 {
+  .form-communic__wrapp {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@include _1156 {
+  .form-communic__wrapp {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include _1036 {
+  .form-communic__wrapp {
+    width: 920px;
+    padding-bottom: 30px;
+  }
+}
+
+@include _976 {
+  .form-communic__wrapp {
+    width: 820px;
+  }
+}
+
+@include _876 {
+  .form-communic__wrapp {
+    width: 680px;
+  }
+}
+
+@include _736 {
+  .form-communic__wrapp {
+    width: 580px;
+  }
+}
+
+@include _706 {
+  .form-communic__wrapp {
+    width: 480px;
+  }
+}
+
+@include _536 {
+  .form-communic__wrapp {
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.form-communic h3 {
+  font-family: "CadillacSansBook", "Arial", sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+  margin: 0;
+}
+
+@include _1036 {
+  .form-communic h3 {
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@include _706 {
+  .form-communic h3 {
+    width: 440px;
+    font-size: 28px;
+  }
+}
+
+@include _536 {
+  .form-communic h3 {
+    width: 100%;
+  }
+}
+
+@include _356 {
+  .form-communic h3 {
+    font-size: 23px;
+  }
+}
+
+.form-communic__notice {
+  width: 715px;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+  margin-top: 40px;
+}
+
+@include _1036 {
+  .form-communic__notice {
+    width: 450px;
+    margin-left: 235px;
+  }
+}
+
+@include _976 {
+  .form-communic__notice {
+    margin-left: 185px;
+  }
+}
+
+@include _706 {
+  .form-communic__notice {
+    margin-left: 15px;
+  }
+}
+
+@include _536 {
+  .form-communic__notice {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.form-communic__notice a {
+  color: #000000;
+}
+
+

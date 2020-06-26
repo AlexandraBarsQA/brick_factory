@@ -1,0 +1,39 @@
+.card {
+  box-sizing: border-box;
+  display: none;
+  width: 320px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+@include _536 {
+  .card {
+    width: 280px;
+  }
+}
+
+.card img {
+  width: 280px;
+  height: 162px;
+  margin-bottom: 15px;
+}
+
+@include _536 {
+  .card img {
+    width: 240px;
+    height: auto;
+  }
+}
+
+.card__btn {
+  width: 70px;
+  font-family: inherit;
+  text-align: center;
+  margin-left: auto;
+  text-decoration: none;
+}
+
+.card__btn:hover .header-nav__count {
+  opacity: 1.0;
+}

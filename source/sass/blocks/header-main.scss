@@ -1,0 +1,21 @@
+.header-main {
+  position: fixed;
+  width: 100%;
+  min-height: 37px;
+  top: 0;
+  background-color: #000000;
+  z-index: 10;
+}
+
+@include _1256 {
+  .header-main {
+    padding-bottom: 15px;
+  }
+}
+
+@include _706 {
+  .header-main {
+    position: static;
+  }
+}
+

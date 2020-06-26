@@ -1,0 +1,24 @@
+.user-order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.user-order label {
+  font-family: "CadillacSansSemiBold", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.user-order input[type="number"] {
+  width: 55px;
+  height: 30px;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}

@@ -1,0 +1,28 @@
+.pay-delivery {
+  position: relative;
+  min-height: 445px;
+  background-color: #f3f3f3;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.pay-delivery__wrapp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 55px;
+}
+
+@include _876 {
+  .pay-delivery__wrapp {
+    flex-direction: column;
+  }
+}
+
+.pay-delivery ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+

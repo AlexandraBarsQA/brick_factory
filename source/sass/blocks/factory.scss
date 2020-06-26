@@ -1,0 +1,152 @@
+.factory {
+  width: 100%;
+  min-height: 230px;
+  background-color: #808080;
+  padding-bottom: 50px;
+}
+
+.factory__wrapp {
+  position: relative;
+  width: 1140px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+}
+
+@include _1256 {
+  .factory__wrapp {
+    width: 1100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include _1156 {
+  .factory__wrapp {
+    width: 980px;
+  }
+}
+
+@include _1036 {
+  .factory__wrapp {
+    width: 920px;
+  }
+}
+
+@include _1016 {
+  .factory__wrapp {
+    width: 820px;
+  }
+}
+
+@include _876 {
+  .factory__wrapp {
+    width: 680px;
+  }
+}
+
+@include _736 {
+  .factory__wrapp {
+    width: 580px;
+  }
+}
+
+@include _706 {
+  .factory__wrapp {
+    width: 480px;
+  }
+}
+
+@include _536 {
+  .factory__wrapp {
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.factory h2 {
+  position: absolute;
+  font-family: "CadillacSansBook", "Arial", sans-serif;
+  font-size: 42px;
+  color: #ffffff;
+  background-color: #808080;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0;
+  top: -35px;
+  left: 230px;
+}
+
+@include _736 {
+  .factory h2 {
+    font-size: 34px;
+    left: calc(50% - 381px / 2);
+  }
+}
+
+@include _636 {
+  .factory h2 {
+    text-align: center;
+  }
+}
+
+@include _536 {
+  .factory h2 {
+    left: 0;
+  }
+}
+
+@include _356 {
+  .factory h2 {
+    font-size: 30px;
+  }
+}
+
+.factory__desc {
+  display: flex;
+  flex-direction: row;
+  padding-top: 52px;
+  margin: 0 auto;
+}
+
+@include _876 {
+  .factory__desc {
+    flex-direction: column;
+  }
+}
+
+.factory__desc article {
+  width: 570px;
+  margin-top: 32px;
+  margin-left: 30px;
+}
+
+@include _1016 {
+  .factory__desc article {
+    width: 430px;
+  }
+}
+
+@include _876 {
+  .factory__desc article {
+    width: 570px;
+    margin: 0 auto;
+    margin-top: 32px;
+  }
+}
+
+@include _706 {
+  .factory__desc article {
+    width: 100%;
+  }
+}
+
+.factory__desc p {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin: 0;
+  margin-bottom: 25px;
+}

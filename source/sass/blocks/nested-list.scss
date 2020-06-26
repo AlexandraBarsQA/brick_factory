@@ -1,0 +1,71 @@
+.nested-list {
+  position: fixed;
+  display: none;
+  box-sizing: border-box;
+  width: 435px;
+  min-height: 355px;
+  background-color: #ffffff;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-top: 34px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 15px 3px rgba(0, 0, 0, 0.3);
+  z-index: 5;
+}
+
+@include _736 {
+  .nested-list {
+    width: 320px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@include _706 {
+  .nested-list {
+    text-align: left;
+  }
+}
+
+@include _636 {
+  .nested-list {
+    width: 280px;
+    text-align: left;
+  }
+}
+
+.nested-list li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid transparent;
+  padding: 0;
+}
+
+.nested-list a {
+  font-family: "CadillacSansBook", "Arial", sans-serif;
+  font-size: 14px;
+  text-transform: none;
+  color: rgba(0, 0, 0, 1.0);
+}
+
+.nested-list a {
+  font-family: "CadillacSansBook", "Arial", sans-serif;
+  font-size: 14px;
+  text-transform: none;
+  color: rgba(0, 0, 0, 1.0);
+}
+
+.nested-list a[href] {
+  &:hover,
+  &:focus {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0, 0.3);
+  }
+}

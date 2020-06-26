@@ -1,0 +1,53 @@
+.video-block {
+  position: relative;
+  width: 560px;
+  height: 315px;
+  overflow: hidden;
+}
+
+@include _1156 {
+  .video-block {
+    height: 290px;
+  }
+}
+
+@include _1036 {
+  .video-block {
+    height: 275px;
+  }
+}
+
+@include _976 {
+  .video-block {
+    height: 280px;
+  }
+}
+
+@include _876 {
+  .video-block {
+    height: 315px;
+    margin: 0 auto;
+  }
+}
+
+@include _706 {
+  .video-block {
+    width: 100%;
+    height: 280px;
+  }
+}
+
+@include _536 {
+  .video-block {
+    width: 280px;
+    height: 170px;
+  }
+}
+
+.video-block iframe,
+.video-block img {
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
+}

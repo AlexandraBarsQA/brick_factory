@@ -1,0 +1,79 @@
+.sidebar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 210px;
+}
+
+@include _876 {
+  .sidebar {
+    margin-right: 0;
+  }
+}
+
+.sidebar li {
+  font-family: inherit;
+  font-size: 25px;
+  margin-bottom: 38px;
+}
+
+.sidebar--catalog {
+  margin-bottom: 10px;
+  margin-right: 140px;
+}
+
+@include _1016 {
+  .sidebar--catalog {
+   width: 100%;
+  }
+}
+
+.sidebar--catalog li {
+  margin-bottom: 35px;
+}
+
+.sidebar a {
+  color: #000000;
+}
+
+a.sidebar__link-active  {
+  color: #f54327;
+  text-decoration: none;
+}
+
+ul.sidebar__items {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.sidebar__items li {
+  position: relative;
+  font-size: 16px;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.sidebar__items li::before {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  top: 30%;
+  left: -15px;
+}
+
+.sidebar--catalog > li:last-child {
+  margin-left: 60px;
+}
+
+.sidebar--catalog > li:last-child::before {
+  display: inline-block;
+  content: "";
+  width: 39px;
+  height: 17px;
+  background-image: url("../img/brickwork-icon.png");
+  background-repeat: no-repeat;
+  margin-left: -60px;
+  margin-right: 10px;
+}

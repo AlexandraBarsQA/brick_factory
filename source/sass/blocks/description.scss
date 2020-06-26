@@ -1,0 +1,16 @@
+.description {
+  flex-direction: column;
+  width: 754px;
+  margin-left: 450px;
+}
+
+@include _1156 {
+  .description {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.description p {
+  margin-bottom: 25px;
+}

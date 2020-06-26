@@ -1,0 +1,22 @@
+.footer-copyright {
+  width: 100%;
+  min-height: 87px;
+  background-color: #ffffff;
+}
+
+.footer-copyright p {
+  margin: 0;
+  margin-top: 37px;
+  float: right;
+}
+
+@include _636 {
+  .footer-copyright p {
+    text-align: center;
+    float: none;
+  }
+}
+
+.footer-copyright a {
+  color: #6699ff;
+}

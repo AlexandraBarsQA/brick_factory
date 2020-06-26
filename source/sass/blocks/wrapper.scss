@@ -1,0 +1,71 @@
+.wrapper {
+  width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 0 auto;
+}
+
+@include _1296 {
+  .wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include _1256 {
+  .wrapper {
+    width: 1100px;
+  }
+}
+
+@include _1156 {
+  .wrapper {
+    width: 980px;
+  }
+}
+
+@include _1036 {
+  .wrapper {
+    width: 920px;
+  }
+}
+
+@include _1016 {
+  .wrapper {
+    width: 820px;
+  }
+}
+
+@include _876 {
+  .wrapper {
+    width: 680px;
+  }
+}
+
+@include _736 {
+  .wrapper {
+    width: 580px;
+  }
+}
+
+@include _706 {
+  .wrapper {
+    width: 480px;
+  }
+}
+
+@include _636 {
+  .wrapper {
+    width: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@include _536 {
+  .wrapper {
+    width: 280px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

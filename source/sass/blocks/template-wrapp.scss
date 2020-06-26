@@ -1,0 +1,28 @@
+.template-wrapp {
+  width: 100%;
+  min-height: 67px;
+  border-bottom: 2px solid #787878;
+}
+
+@include _536 {
+  .template-wrapp {
+    padding-top: 30px;
+  }
+}
+
+.template-wrapp--order {
+  background-color: #f54327;
+  border-bottom: 2px solid #ffffff;
+}
+
+.template-wrapp--factory {
+  background-color: #808080;
+  border-bottom: 2px solid #ffffff;
+}
+
+@include _356 {
+  .template-wrapp--order,
+  .template-wrapp--factory {
+    padding-top: 0;
+  }
+}

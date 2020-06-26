@@ -1,0 +1,25 @@
+.card-inner {
+  box-sizing: border-box;
+  display: none;
+  width: 210px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.card-inner img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.card-inner__btn {
+  font-family: inherit;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+.card-inner__btn:hover .header-nav__count {
+  opacity: 1.0;
+}

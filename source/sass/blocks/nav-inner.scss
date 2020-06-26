@@ -1,0 +1,44 @@
+.nav-inner {
+  margin: 0;
+}
+
+.nav-inner li {
+  display: flex;
+}
+
+@include _736 {
+  .nav-inner--product li {
+    flex-direction: column;
+  }
+}
+
+@include _536 {
+  .nav-inner--catalog li {
+    flex-direction: column;
+  }
+}
+
+.nav-inner a {
+  font-family: inherit;
+  font-size: 15px;
+  color: #787878;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@include _736 {
+  .nav-inner--product a {
+    margin-bottom: 8px;
+  }
+}
+
+@include _536 {
+  .nav-inner--catalog a {
+    margin-bottom: 8px;
+  }
+}
+
+.nav-inner__link-active a {
+  color: #000000;
+  text-decoration: none;
+}

@@ -1,0 +1,130 @@
+.content-inner {
+  position: relative;
+  width: 750px;
+}
+
+@include _1256 {
+  .content-inner {
+    width: 650px;
+  }
+}
+
+@include _1156 {
+  .content-inner {
+    width: 530px;
+  }
+}
+
+@include _1016 {
+  .content-inner {
+    width: 370px;
+  }
+}
+
+@include _876 {
+  .content-inner {
+    width: 628px;
+    margin-left: 52px;
+  }
+}
+
+@include _706 {
+  .content-inner {
+    width: 428px;
+  }
+}
+
+@include _636 {
+  .content-inner {
+    width: 368px;
+  }
+}
+
+@include _536 {
+  .content-inner {
+    width: 240px;
+  }
+}
+
+.content-inner--product {
+  width: 100%;
+}
+
+@include _1016 {
+  .content-inner--catalog {
+    width: 100%;
+    margin-left: 0px;
+  }
+}
+
+@include _876 {
+  .content-inner--product {
+    margin-left: 0;
+  }
+}
+
+.content-inner h4 {
+  font-family: "CadillacSansSemiBold", "Arial", sans-serif;
+  font-size: 34px;
+  color: #f54327;
+  margin: 0;
+  margin-bottom: 47px;
+}
+
+.content-inner--product h4 {
+  margin-top: 35px;
+}
+
+
+@include _876 {
+  .content-inner h4 {
+    margin-top: 30px;
+  }
+}
+
+@include _536 {
+  .content-inner h4 {
+    font-size: 30px;
+  }
+}
+
+@include _1016 {
+  .content-inner--catalog h4 {
+    margin-top: 30px;
+    margin-left: 52px;
+  }
+}
+
+.content-inner h4::before {
+  display: inline-block;
+  content: "";
+  width: 39px;
+  height: 17px;
+  background-image: url("../img/brick-icon.png");
+  background-repeat: no-repeat;
+  margin-left: -52px;
+  margin-right: 10px;
+}
+
+.content-inner h4::before {
+  margin-left: 0;
+}
+
+
+.content-inner p {
+  font-family: inherit;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 26px;
+}
+
+.content-inner__explain img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 53px;
+}
+
+.content-inner__explain a {
+  color: #000000;
+}

@@ -1,0 +1,13 @@
+@include _706 {
+  .footer-logo {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+  }
+}
+
+@include _536 {
+  .footer-logo {
+    display: block;
+  }
+}

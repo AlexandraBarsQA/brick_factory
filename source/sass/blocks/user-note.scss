@@ -1,0 +1,156 @@
+.user-note {
+  width: 620px;
+  margin-top: 30px;
+  margin-left: 415px;
+}
+
+@include _1256 {
+  .user-note {
+    width: 570px;
+  }
+}
+
+@include _1036 {
+  .user-note {
+    width: 595px;
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+}
+
+@include _706 {
+  .user-note {
+    width: 480px;
+  }
+}
+
+@include _536 {
+  .user-note {
+    width: 280px;
+  }
+}
+
+.user-note textarea {
+  width: 595px;
+  min-height: 210px;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+@include _1256 {
+  .user-note textarea {
+    width: 545px;
+  }
+}
+
+@include _1036 {
+  .user-note textarea {
+    width: 570px;
+  }
+}
+
+@include _706 {
+  .user-note textarea {
+    width: 458px;
+  }
+}
+
+@include _536 {
+  .user-note textarea {
+    width: 258px;
+  }
+}
+
+.user-note p {
+  margin: 0;
+}
+
+.user-note__group {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.user-note__group label {
+  font-family: "CadillacSansSemiBold", "Arial", sans-serif;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.user-note__group input[type="text"],
+.user-note__group input[type="tel"],
+.user-note__group input[type="email"] {
+  display: block;
+  width: 595px;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #f54327;
+  outline: 0;
+  margin-top: 8px;
+}
+
+@include _1256 {
+  .user-note__group input[type="text"],
+  .user-note__group input[type="tel"],
+  .user-note__group input[type="email"] {
+    width: 545px;
+  }
+}
+
+@include _1036 {
+  .user-note__group input[type="text"],
+  .user-note__group input[type="tel"],
+  .user-note__group input[type="email"] {
+    width: 570px;
+  }
+}
+
+@include _706 {
+  .user-note__group input[type="text"],
+  .user-note__group input[type="tel"],
+  .user-note__group input[type="email"] {
+    width: 458px;
+  }
+}
+
+@include _536 {
+  .user-note__group input[type="text"],
+  .user-note__group input[type="tel"],
+  .user-note__group input[type="email"] {
+    width: 258px;
+  }
+}
+
+.user-note a {
+  color: #6699ff;
+}
+
+.user-note__btn {
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+@include _536 {
+  .user-note__btn {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+.user-note__group:hover label
+.user-note__group:focus label {
+
+}
+
+.user-note__group:hover span
+.user-note__group:focus span {
+
+}
+
+.user-note__group:hover input
+.user-note__group:focus input {
+
+}

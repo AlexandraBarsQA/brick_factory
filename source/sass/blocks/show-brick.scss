@@ -1,0 +1,18 @@
+.show-brick {
+  display: flex;
+    display: -webkit-box;
+      display: -ms-flexbox;
+}
+
+@include _536 {
+  .show-brick {
+    width: 230px;
+  }
+}
+
+@include _536 {
+  .show-brick img {
+    width: 100%;
+    height: auto;
+  }
+}

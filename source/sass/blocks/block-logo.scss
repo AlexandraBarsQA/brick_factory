@@ -1,0 +1,239 @@
+.block-logo {
+   width: 100%;
+   background-color: #ffffff;
+}
+
+.block-logo__wrapp {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 65px;
+}
+
+@include _1256 {
+  .block-logo__wrapp {
+    margin-top: 127px;
+  }
+}
+
+@include _1036 {
+  .block-logo__wrapp {
+    width: 920px;
+    margin-top: 130px;
+  }
+}
+
+@include _1016 {
+  .block-logo__wrapp {
+    width: 820px;
+  }
+}
+
+@include _916 {
+  .block-logo__wrapp {
+    width: 680px;
+    margin: 0 auto;
+    margin-top: 130px;
+  }
+}
+
+@include _736 {
+  .block-logo__wrapp {
+    width: 540px;
+  }
+}
+
+@include _706 {
+  .block-logo__wrapp {
+    margin-top: 0;
+  }
+}
+
+@include _636 {
+  .block-logo__wrapp {
+    width: 420px;
+  }
+}
+
+@include _536 {
+  .block-logo__wrapp {
+    width: 280px;
+  }
+}
+
+.block-logo__logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+@include _1036 {
+  .block-logo__logo {
+    width: 680px;
+  }
+}
+
+@include _1016 {
+  .block-logo__logo {
+    margin: 0 auto;
+  }
+}
+
+@include _736 {
+  .block-logo__logo {
+    display: block;
+    width: 100%;
+  }
+}
+
+.block-logo__logo figure {
+  width: 159px;
+  height: 83px;
+  margin: 0;
+}
+
+@include _736 {
+  .block-logo__logo figure {
+    margin: 0 auto;
+  }
+}
+
+.block-logo__logo p {
+  font-family: inherit;
+  font-size: 42px;
+  line-height: 28px;
+  color: #f54327;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+@include _1036 {
+  .block-logo__logo p {
+    font-size: 36px;
+  }
+}
+
+@include _736 {
+  .block-logo__logo p {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+@include _636 {
+  .block-logo__logo p {
+    font-size: 30px;
+    line-height: 28px;
+  }
+}
+
+.block-logo__logo span {
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  color: #000000;
+}
+
+@include _1036 {
+  .block-logo__logo span {
+    font-size: 14px;
+  }
+}
+
+@include _636 {
+  .block-logo__logo span {
+    line-height: 18px;
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.block-logo__logo img {
+  width: 100%;
+  height: auto;
+}
+
+.block-logo__schedule {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin-left: auto;
+}
+
+@include _1256 {
+  .block-logo__schedule {
+    display: block;
+    width: 220px;
+  }
+}
+
+@include _1016 {
+  .block-logo__schedule {
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+@include _636 {
+  .block-logo__schedule {
+    margin-top: 38px;
+  }
+}
+
+@include _536 {
+  .block-logo__schedule {
+    display: block;
+    width: 280px;
+    text-align: center;
+  }
+}
+
+.block-logo__schedule p {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 13px;
+  margin: 0;
+}
+
+.block-logo__schedule p:nth-child(2) {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+}
+
+.block-logo__price {
+  width: 220px;
+  height: 84px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+@include _976 {
+  .block-logo__price {
+    margin-left: 38px;
+  }
+}
+
+@include _736 {
+  .block-logo__price {
+    margin-top: 0;
+  }
+}
+
+@include _536 {
+  .block-logo__price {
+    margin-left: 0;
+  }
+}
+
+@include _1076 {
+  img.block-logo__price {
+    display: flex;
+  }
+}
