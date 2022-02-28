@@ -7,7 +7,38 @@
 .basket-user__wrapp {
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 55px;
+}
+
+.basket-user__wrapp h3 {
+  position: relative;
+  font-family: inherit;
+  font-size: 34px;
+  color: #f54327;
+  margin: -10px 0 38px;
+}
+
+@include _1036 {
+  .basket-user__wrapp h3 {
+    margin-bottom: 0;
+  }
+}
+
+@include _536 {
+  .basket-user__wrapp h3 {
+    font-size: 30px;
+  }
+}
+
+.basket-user__wrapp h3::before {
+  display: inline-block;
+  content: "";
+  width: 39px;
+  height: 17px;
+  background-image: url("../img/brick-icon.png");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+  margin-left: 0;
 }
 
 .basket-user__list {
@@ -38,10 +69,10 @@
 }
 
 .basket-user__item {
+  width: 680px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 800px;
   margin-left: 90px;
 }
 
@@ -68,6 +99,7 @@
   }
 }
 
+.basket-user h1,
 .basket-user h2 {
   position: absolute;
   font-family: inherit;
@@ -82,6 +114,7 @@
 }
 
 @include _706 {
+  .basket-user h1,
   .basket-user h2 {
     left: 0;
   }

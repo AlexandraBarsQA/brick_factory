@@ -13,7 +13,7 @@
   }
 }
 
-@include _916 {
+@include _1016 {
   .header-nav {
     justify-content: flex-start;
   }
@@ -44,24 +44,31 @@
   color: #ffffff;
 }
 
+@include _1256 {
+  .header-nav__user {
+    margin-left: 25px;
+  }
+}
+
 @include _1156 {
   .header-nav__user {
-    position: absolute;
-    right: 37px;
-    bottom: 5px;
+    margin-left: 0;
+  }
+}
+
+@include _1036 {
+  .header-nav__user {
+    margin-left: 20px;
+    margin-right: 45px;
   }
 }
 
 @include _1016 {
   .header-nav__user {
-    margin-left: 145px;
-  }
-}
-
-@include _916 {
-  .header-nav__user {
     position: absolute;
     right: 32px;
+    bottom: 5px;
+    margin: 0;
   }
 }
 
@@ -110,31 +117,7 @@
   }
 }
 
-@include _1156 {
-  .header-nav__contact {
-
-  }
-}
-
-@include _1076 {
-  .header-nav__contact {
-
-  }
-}
-
 @include _1016 {
-  .header-nav__contact {
-
-  }
-}
-
-@include _976 {
-  .header-nav__contact {
-
-  }
-}
-
-@include _916 {
   .header-nav__contact {
     margin-left: 35px;
   }
@@ -306,7 +289,26 @@
   white-space: nowrap;
 }
 
-@include _976 {
+@include _1156 {
+  .header-nav__form {
+    width: 160px;
+    margin-left: 10px;
+  }
+}
+
+@include _1036 {
+  .header-nav__form {
+    width: 140px;
+  }
+}
+
+@include _1016 {
+  .header-nav__form {
+    width: 223px;
+  }
+}
+
+@include _876 {
   .header-nav__form {
     display: flex;
     margin-left: 0;
@@ -323,6 +325,24 @@
   color: #808080;
   padding-left: 10px;
   outline: none;
+}
+
+@include _1156 {
+  .header-nav__form input[type="search"] {
+    width: 137px;
+  }
+}
+
+@include _1036 {
+  .header-nav__form input[type="search"] {
+    width: 117px;
+  }
+}
+
+@include _1016 {
+  .header-nav__form input[type="search"] {
+    width: 200px;
+  }
 }
 
 .header-nav__form input[type="image"] {

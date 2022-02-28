@@ -1,15 +1,44 @@
 .card-inner {
   box-sizing: border-box;
   display: none;
-  width: 210px;
+  width: 320px;
+  min-height: 420px;
   padding: 20px;
   background-color: #ffffff;
   border: 1px solid #cccccc;
 }
 
+@include _1156 {
+  .card-inner {
+    width: 310px;
+    min-height: 410px;
+  }
+}
+
+@include _1036 {
+  .card-inner {
+    width: 320px;
+    min-height: 420px;
+  }
+}
+
+@include _536 {
+  .card-inner {
+    width: 280px;
+    min-height: 400px;
+  }
+}
+
 .card-inner img {
   width: 100%;
-  margin-bottom: 10px;
+  height: auto;
+  margin-bottom: 28px;
+}
+
+.card-inner .catalog-full__price {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
 }
 
 .card-inner__btn {
@@ -17,7 +46,6 @@
   width: 70px;
   text-align: center;
   text-decoration: none;
-  margin-top: 15px;
 }
 
 .card-inner__btn:hover .header-nav__count {

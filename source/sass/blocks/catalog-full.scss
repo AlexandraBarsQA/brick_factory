@@ -2,15 +2,10 @@
   position: relative;
   min-height: 445px;
   background-color: #f3f3f3;
+  margin-bottom: 35px;
 }
 
 @include _1156 {
-  .catalog-full {
-    width: 450px;
-  }
-}
-
-@include _1016 {
   .catalog-full {
     width: 100%;
   }
@@ -25,7 +20,7 @@
 
 @include _536 {
   .catalog-full {
-    width: 210px;
+    width: 280px;
     padding-top: 0px;
     margin: 0 auto;
   }
@@ -104,20 +99,54 @@
 
 .catalog-full li {
   position: relative;
-  width: 210px;
-  min-height: 400px;
+  width: 320px;
+  min-height: 420px;
   margin-bottom: 45px;
+  list-style-type: none;
+}
+
+@include _1156 {
+  .catalog-full li {
+    width: 310px;
+    min-height: 410px;
+  }
+}
+
+@include _1036 {
+  .catalog-full li {
+    width: 320px;
+    min-height: 420px;
+  }
 }
 
 @include _736 {
   .catalog-full li {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
+  }
+}
+
+@include _536 {
+  .catalog-full li {
+    width: 280px;
+    min-height: 400px;
   }
 }
 
 .catalog-full__item img {
-  width: 80%;
+  width: 100%;
   height: auto;
+}
+
+@include _636 {
+  .catalog-full__item img {
+    width: 85%;
+  }
+}
+
+@include _636 {
+  .catalog-full__item img {
+    width: 100%;
+  }
 }
 
 .catalog-full__item p {
@@ -137,7 +166,8 @@
 
 .catalog-full__price {
   position: relative;
-  display: block;
+  display: flex;
+  padding-bottom: 15px;
 }
 
 .catalog-full__price p {
@@ -177,7 +207,7 @@
   width: 70px;
   text-align: center;
   text-decoration: none;
-  margin-top: 25px;
+  margin-top: 0;
 }
 
 .catalog-full__item:hover .card-inner {

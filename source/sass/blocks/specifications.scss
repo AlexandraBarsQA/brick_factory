@@ -26,19 +26,31 @@
   flex-direction: row;
   justify-content: flex-start;
   border-bottom: 1px solid #cccccc;
-  padding-top: 6px;
+  padding-top: 3px;
   padding-bottom: 3px;
 }
 
-.specifications__item:last-child {
+.specifications__list--second {
+  margin-top: 25px;
+}
+
+.specifications__list--second li:last-child {
   border-bottom: 0;
+}
+
+.specifications h4 {
+  font-family: inherit;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .specifications__item p {
   width: 140px;
   font-family: inherit;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 16px;
   padding-left: 20px;
   margin: 0;
 }
@@ -53,7 +65,7 @@
 .specifications__item span {
   font-family: "CadillacSansSemiBold", "Arial", sans-serif;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 16px;
   padding-right: 20px;
   margin: 0;
   margin-left: 64px;

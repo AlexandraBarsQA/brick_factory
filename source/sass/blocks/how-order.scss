@@ -6,7 +6,6 @@
 }
 
 .how-order__wrapp {
-  position: relative;
   width: 1140px;
   padding-left: 30px;
   padding-right: 30px;
@@ -62,26 +61,38 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: 0;
-  top: -35px;
-  left: 230px;
+  margin-top: -35px;
+  margin-left: 205px;
+}
+
+@include _1016 {
+  .how-order h2 {
+    margin-left: 75px;
+  }
+}
+
+@include _976 {
+  .how-order h2 {
+    margin-left: 0;
+  }
 }
 
 @include _736 {
   .how-order h2 {
     font-size: 34px;
-    left: calc(50% - 380px / 2);
   }
 }
 
 @include _636 {
   .how-order h2 {
     text-align: center;
+    margin-left: 20px;
   }
 }
 
 @include _536 {
   .how-order h2 {
-    left: 0;
+    margin-left: -10px;
   }
 }
 

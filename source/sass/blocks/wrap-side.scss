@@ -1,0 +1,15 @@
+.wrap-side {
+  width: 310px;
+}
+
+@include _1156 {
+  .wrap-side {
+    margin-bottom: 30px;
+  }
+}
+
+@include _536 {
+  .wrap-side {
+    width: 100%;
+  }
+}

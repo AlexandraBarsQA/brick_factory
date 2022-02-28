@@ -9,13 +9,19 @@
   margin: 0;
 }
 
-@include _1036 {
+@include _1256 {
   .site-nav {
-    width: 540px;
+    width: 500px;
   }
 }
 
-@include _916 {
+@include _1036 {
+  .site-nav {
+    width: 450px;
+  }
+}
+
+@include _1016 {
   .site-nav {
     width: 100%;
   }
@@ -37,6 +43,18 @@
   text-transform: uppercase;
   padding-top: 23px;
   padding-bottom: 23px;
+}
+
+@include _1036 {
+  .site-nav li {
+    font-size: 14px;
+  }
+}
+
+@include _1016 {
+  .site-nav li {
+    font-size: 16px;
+  }
 }
 
 @include _636 {

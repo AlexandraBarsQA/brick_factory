@@ -1,12 +1,31 @@
 .nav-inner {
+  display: flex;
   margin: 0;
+}
+
+@include _536 {
+  .nav-inner {
+    flex-direction: column;
+  }
 }
 
 .nav-inner li {
   display: flex;
 }
 
+@include _536 {
+  .nav-inner ul {
+    margin: 0;
+  }
+}
+
 @include _736 {
+  .nav-inner--product {
+    flex-direction: column;
+  }
+}
+
+@include _706 {
   .nav-inner--product li {
     flex-direction: column;
   }
@@ -15,6 +34,12 @@
 @include _536 {
   .nav-inner--catalog li {
     flex-direction: column;
+  }
+}
+
+@include _536 {
+  .nav-inner--product {
+   display: none;
   }
 }
 

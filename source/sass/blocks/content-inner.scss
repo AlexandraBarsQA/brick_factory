@@ -15,7 +15,7 @@
   }
 }
 
-@include _1016 {
+@include _1036 {
   .content-inner {
     width: 370px;
   }
@@ -24,7 +24,6 @@
 @include _876 {
   .content-inner {
     width: 628px;
-    margin-left: 52px;
   }
 }
 
@@ -42,7 +41,7 @@
 
 @include _536 {
   .content-inner {
-    width: 240px;
+    width: 280px;
   }
 }
 
@@ -50,10 +49,26 @@
   width: 100%;
 }
 
-@include _1016 {
+.content-inner--contact {
+
+}
+
+.content-inner--catalog {
+  width: 780px;
+  margin-left: 93px;
+}
+
+@include _1256 {
+  .content-inner--catalog {
+    width: 700px;
+    margin-left: 80px;
+  }
+}
+
+@include _1156 {
   .content-inner--catalog {
     width: 100%;
-    margin-left: 0px;
+    margin-left: 0;
   }
 }
 
@@ -63,39 +78,39 @@
   }
 }
 
-.content-inner h4 {
-  font-family: "CadillacSansSemiBold", "Arial", sans-serif;
+.content-inner h3 {
+  font-family: inherit;
   font-size: 34px;
   color: #f54327;
   margin: 0;
-  margin-bottom: 47px;
+  margin-top: -10px;
+  margin-bottom: 38px;
 }
 
-.content-inner--product h4 {
+.content-inner--product h3 {
   margin-top: 35px;
+  margin-bottom: 0;
 }
-
 
 @include _876 {
-  .content-inner h4 {
+  .content-inner h3 {
     margin-top: 30px;
   }
 }
 
 @include _536 {
-  .content-inner h4 {
+  .content-inner h3 {
     font-size: 30px;
   }
 }
 
-@include _1016 {
-  .content-inner--catalog h4 {
+@include _1156 {
+  .content-inner--catalog h3 {
     margin-top: 30px;
-    margin-left: 52px;
   }
 }
 
-.content-inner h4::before {
+.content-inner h3::before {
   display: inline-block;
   content: "";
   width: 39px;
@@ -106,10 +121,9 @@
   margin-right: 10px;
 }
 
-.content-inner h4::before {
+.content-inner h3::before {
   margin-left: 0;
 }
-
 
 .content-inner p {
   font-family: inherit;
@@ -127,4 +141,12 @@
 
 .content-inner__explain a {
   color: #000000;
+}
+
+.content-inner__explain li {
+  font-family: inherit;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  list-style-type: disc;
 }

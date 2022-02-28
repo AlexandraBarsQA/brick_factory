@@ -20,7 +20,7 @@
 
 @include _706 {
   .user-note {
-    width: 480px;
+    width: 460px;
   }
 }
 
@@ -54,6 +54,12 @@
 @include _706 {
   .user-note textarea {
     width: 458px;
+  }
+}
+
+@include _636 {
+  .user-note textarea {
+    width: 438px;
   }
 }
 
@@ -113,6 +119,14 @@
   .user-note__group input[type="tel"],
   .user-note__group input[type="email"] {
     width: 458px;
+  }
+}
+
+@include _636 {
+  .user-note__group input[type="text"],
+  .user-note__group input[type="tel"],
+  .user-note__group input[type="email"] {
+    width: 438px;
   }
 }
 

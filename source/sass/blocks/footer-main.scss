@@ -60,7 +60,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 35px;
+      margin-top: 35px;
   }
 }
 
@@ -73,7 +73,7 @@
   }
 }
 
-.footer-main__item h4 {
+.footer-main__item h5 {
   font-size: 25px;
   margin: 0;
 }
@@ -101,9 +101,13 @@
   margin-top: 14px;
 }
 
-.footer-main__phone {
+a.footer-main__phone {
+  font-size: 25px;
+  font-weight: 700;
   color: #f54327;
   padding-bottom: 14px;
+  margin: 0;
+  text-decoration: none;
 }
 
 .footer-main__social {

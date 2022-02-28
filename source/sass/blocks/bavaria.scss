@@ -1,0 +1,17 @@
+.bavaria {
+  font-family: inherit;
+  font-size: 25px;
+  color: #000000;
+  margin-left: 60px;
+}
+
+.bavaria:last-child::before {
+  display: inline-block;
+  content: "";
+  width: 39px;
+  height: 17px;
+  background-image: url("../img/brickwork-icon.png");
+  background-repeat: no-repeat;
+  margin-left: -60px;
+  margin-right: 15px;
+}

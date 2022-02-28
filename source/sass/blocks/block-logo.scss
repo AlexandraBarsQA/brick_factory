@@ -13,22 +13,10 @@
   margin-top: 65px;
 }
 
-@include _1256 {
-  .block-logo__wrapp {
-    margin-top: 127px;
-  }
-}
-
-@include _1036 {
-  .block-logo__wrapp {
-    width: 920px;
-    margin-top: 130px;
-  }
-}
-
 @include _1016 {
   .block-logo__wrapp {
     width: 820px;
+    margin-top: 130px;
   }
 }
 
@@ -150,6 +138,12 @@
     line-height: 18px;
     width: 300px;
     margin: 0 auto;
+  }
+}
+
+@include _536 {
+  .block-logo__logo span {
+    width: 100%;
   }
 }
 
